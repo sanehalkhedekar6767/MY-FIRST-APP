@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+*{
+    font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  /* font-variation-settings: */
+    /* "wdth" 100; */
+}
+.card{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    height: 200px ;
+    align-items: center;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+  
+.container{
+    text-align: center;
+    color: navy;
+}
+
+.reactImage{
+    width: 200px;  
+}
+
+.ubuntu-sans-<uniquifier> {
+  
+}

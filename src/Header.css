@@ -1,0 +1,19 @@
+nav{
+    background-color: navy;
+    height: 40px;
+    border-top: 2px solid yellowgreen;
+}
+.navbar-brand{
+    color: greenyellow;
+    
+}
+.navbar-nav li a{
+    float: left;
+    color: antiquewhite;
+    margin-left: 30px ;
+}
+#profile{
+    list-style-type: none;
+    background-color: greenyellow;
+    color: navy;
+}
